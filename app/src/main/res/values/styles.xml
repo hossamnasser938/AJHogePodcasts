@@ -13,12 +13,20 @@
         <item name="android:layout_margin">10dp</item>
     </style>
 
-    <style name="rule_button">
+    <style name="rule_linear_layout">
+        <item name="android:background">@color/blue_grey</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="rule_text">
         <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">@color/blue_grey</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="rule_mini_text">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
 </resources>
