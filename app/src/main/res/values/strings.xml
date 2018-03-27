@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">AJHogePodcasts</string>
+    <string name="aj_hoge">A.J Hoge</string>
     <string name="seven_rules">7 Rules</string>
     <string name="podcasts">Podcasts</string>
     <string name="rule1">Rule 1</string>
