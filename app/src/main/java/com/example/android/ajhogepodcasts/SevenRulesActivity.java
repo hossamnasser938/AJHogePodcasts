@@ -53,7 +53,7 @@ public class SevenRulesActivity extends AppCompatActivity {
         subRuleLayout = (ViewGroup) ruleLayout.getChildAt(1);
 
         ruleMiniText = (TextView) subRuleLayout.getChildAt(0);
-        ruleMiniText.setText(SevenRules.get(index).getSubject());
+        ruleMiniText.setText(SevenRules.get(index).getAuthor());
 
         ruleMiniText = (TextView) subRuleLayout.getChildAt(1);
         ruleMiniText.setText(SevenRules.get(index).getSubject());
