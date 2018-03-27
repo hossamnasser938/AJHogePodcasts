@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.ajhogepodcasts.MainActivity"
+    android:background="@drawable/ajhoge">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            style="@style/main_layout_button"
+            android:text="@string/seven_rules"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            style="@style/main_layout_button"
+            android:text="@string/podcasts"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
