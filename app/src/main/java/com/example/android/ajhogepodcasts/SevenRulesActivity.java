@@ -11,20 +11,20 @@ import java.util.ArrayList;
 
 public class SevenRulesActivity extends AppCompatActivity {
 
-    ArrayList<Podcast> SevenRules;
+    ArrayList<Rule> SevenRules;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         SevenRules = new ArrayList<>();
 
-        SevenRules.add(new Podcast(getApplicationContext(), getResources().getString(R.string.rule1), getResources().getString(R.string.rule1_subject) , new Duration(0 , 3 , 21)));
-        SevenRules.add(new Podcast(getApplicationContext(), getResources().getString(R.string.rule2), getResources().getString(R.string.rule2_subject) , new Duration(0 , 3 , 19)));
-        SevenRules.add(new Podcast(getApplicationContext(), getResources().getString(R.string.rule3), getResources().getString(R.string.rule3_subject) , new Duration(0 , 4 , 5)));
-        SevenRules.add(new Podcast(getApplicationContext(), getResources().getString(R.string.rule4), getResources().getString(R.string.rule4_subject) , new Duration(0 , 2 , 54)));
-        SevenRules.add(new Podcast(getApplicationContext(), getResources().getString(R.string.rule5), getResources().getString(R.string.rule5_subject) , new Duration(0 , 5 , 9)));
-        SevenRules.add(new Podcast(getApplicationContext(), getResources().getString(R.string.rule6), getResources().getString(R.string.rule6_subject) , new Duration(0 , 4 , 12)));
-        SevenRules.add(new Podcast(getApplicationContext(), getResources().getString(R.string.rule7), getResources().getString(R.string.rule7_subject) , new Duration(0 , 3 , 57)));
+        SevenRules.add(new Rule(getApplicationContext(), getResources().getString(R.string.rule1), getResources().getString(R.string.rule1_subject) , new Duration(0 , 3 , 21)));
+        SevenRules.add(new Rule(getApplicationContext(), getResources().getString(R.string.rule2), getResources().getString(R.string.rule2_subject) , new Duration(0 , 3 , 19)));
+        SevenRules.add(new Rule(getApplicationContext(), getResources().getString(R.string.rule3), getResources().getString(R.string.rule3_subject) , new Duration(0 , 4 , 5)));
+        SevenRules.add(new Rule(getApplicationContext(), getResources().getString(R.string.rule4), getResources().getString(R.string.rule4_subject) , new Duration(0 , 2 , 54)));
+        SevenRules.add(new Rule(getApplicationContext(), getResources().getString(R.string.rule5), getResources().getString(R.string.rule5_subject) , new Duration(0 , 5 , 9)));
+        SevenRules.add(new Rule(getApplicationContext(), getResources().getString(R.string.rule6), getResources().getString(R.string.rule6_subject) , new Duration(0 , 4 , 12)));
+        SevenRules.add(new Rule(getApplicationContext(), getResources().getString(R.string.rule7), getResources().getString(R.string.rule7_subject) , new Duration(0 , 3 , 57)));
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seven_rules);

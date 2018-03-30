@@ -8,31 +8,20 @@ import android.content.Context;
 
 public class Podcast {
 
-    private String ruleNumber;
     private String subject;
     private String author;
     private Duration duration;
 
-    Podcast(Context context, String ruleNumber, String subject, Duration duration){
-        this.ruleNumber = ruleNumber;
+    Podcast(Context context, String subject, Duration duration){
         this.subject = subject;
         this.duration = duration;
         this.author = context.getResources().getString(R.string.aj_hoge);
     }
 
-    Podcast(String ruleNumber, String subject, String author, Duration duration){
-        this.ruleNumber = ruleNumber;
+    Podcast(String subject, String author, Duration duration){
         this.subject = subject;
         this.duration = duration;
         this.author = author;
-    }
-
-    public String getRuleNumber() {
-        return ruleNumber;
-    }
-
-    public void setRuleNumber(String ruleNumbeer) {
-        this.ruleNumber = ruleNumbeer;
     }
 
     public String getSubject() {
