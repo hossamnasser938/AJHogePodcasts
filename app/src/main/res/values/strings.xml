@@ -17,4 +17,24 @@
     <string name="rule6_subject">Learn real English</string>
     <string name="rule7">Rule 7</string>
     <string name="rule7_subject">Listen and answer</string>
+    <string name="podcast1_subject">Training Pronunciation</string>
+    <string name="podcast2_subject">English Obsession and Love</string>
+    <string name="podcast3_subject">Maximum Intensity English</string>
+    <string name="podcast4_subject">Jiu Jitsu English</string>
+    <string name="podcast5_subject">Spoken English Grammar Mastery</string>
+    <string name="podcast6_subject">Mini Story Power | with Steve Kaufman</string>
+    <string name="podcast7_subject">Power of Reading Great Books</string>
+    <string name="podcast8_subject">Social Skills Education</string>
+    <string name="podcast9_subject">Extended Childhood Dangers</string>
+    <string name="podcast10_subject">14 Secrets To Elite Education</string>
+    <string name="podcast11_subject">How To Win</string>
+    <string name="podcast12_subject">Best Education</string>
+    <string name="podcast13_subject">Silenced Movie Review</string>
+    <string name="podcast14_subject">Never Quit English</string>
+    <string name="podcast15_subject">Importance of English</string>
+    <string name="podcast16_subject">Best Way To Learn English</string>
+    <string name="podcast17_subject">Schools Are Lying</string>
+    <string name="podcast18_subject">Nerd Meaning</string>
+    <string name="podcast19_subject">You Gotta Have Faith</string>
+    <string name="podcast20_subject">The Red Pill Meaning</string>
 </resources>
