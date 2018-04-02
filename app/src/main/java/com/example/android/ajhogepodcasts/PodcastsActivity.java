@@ -1,7 +1,9 @@
 package com.example.android.ajhogepodcasts;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -42,5 +44,10 @@ public class PodcastsActivity extends AppCompatActivity {
         ListView podcastsList = (ListView) findViewById(R.id.podcasts_list);
         podcastsList.setAdapter(adapter);
 
+    }
+
+    public void playPodcast(View view){
+        Intent intent = new Intent(getApplicationContext() , NowPlayingActivity.class);
+        startActivity(intent);
     }
 }

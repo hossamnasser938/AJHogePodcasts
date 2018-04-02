@@ -64,8 +64,8 @@ public class SevenRulesActivity extends AppCompatActivity {
 
     }
 
-    void play(View view){
-        Intent intent = new Intent(this , NowPlayingActivity.class);
+    public void playRule(View view){
+        Intent intent = new Intent(getApplicationContext() , NowPlayingActivity.class);
         startActivity(intent);
     }
 

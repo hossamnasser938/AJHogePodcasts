@@ -13,8 +13,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    private void listRules(View view){
-        Intent intent = new Intent(this , SevenRulesActivity.class);
+    public void listRules(View view){
+        Intent intent = new Intent(getApplicationContext() , SevenRulesActivity.class);
+        startActivity(intent);
+    }
+
+    public void listPodcasts(View view){
+        Intent intent = new Intent(getApplicationContext() , PodcastsActivity.class);
         startActivity(intent);
     }
 }
