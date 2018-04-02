@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SevenRulesActivity" />
-        <activity android:name=".PodcastsActivity"></activity>
+        <activity android:name=".PodcastsActivity" />
+        <activity android:name=".NowPlayingActivity"></activity>
     </application>
 
 </manifest>

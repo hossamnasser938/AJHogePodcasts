@@ -37,4 +37,5 @@
     <string name="podcast18_subject">Nerd Meaning</string>
     <string name="podcast19_subject">You Gotta Have Faith</string>
     <string name="podcast20_subject">The Red Pill Meaning</string>
+    <string name="volume">Volume</string>
 </resources>
