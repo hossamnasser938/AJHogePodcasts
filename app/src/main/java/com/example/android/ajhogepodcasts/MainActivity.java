@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void open(View view){
+    private void listRules(View view){
         Intent intent = new Intent(this , SevenRulesActivity.class);
         startActivity(intent);
     }

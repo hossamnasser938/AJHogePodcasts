@@ -22,7 +22,7 @@
             android:layout_height="50dp"
             style="@style/main_layout_button"
             android:text="@string/seven_rules"
-            android:onClick="open"/>
+            android:onClick="listRules"/>
 
         <Button
             android:layout_width="200dp"

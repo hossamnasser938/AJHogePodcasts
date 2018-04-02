@@ -1,5 +1,6 @@
 package com.example.android.ajhogepodcasts;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -61,6 +62,11 @@ public class SevenRulesActivity extends AppCompatActivity {
         ruleMiniText = (TextView) subRuleLayout.getChildAt(2);
         ruleMiniText.setText(SevenRules.get(index).getDuration());
 
+    }
+
+    void play(View view){
+        Intent intent = new Intent(this , NowPlayingActivity.class);
+        startActivity(intent);
     }
 
 }

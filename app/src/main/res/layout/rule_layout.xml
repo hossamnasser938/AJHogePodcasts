@@ -4,6 +4,7 @@
     android:layout_height="0dp"
     android:orientation="vertical"
     android:layout_weight="1"
+    android:onClick="play"
     style="@style/rule_linear_layout">
 
     <TextView
