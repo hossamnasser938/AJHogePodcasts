@@ -16,9 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SevenRulesActivity" />
-        <activity android:name=".PodcastsActivity" />
-        <activity android:name=".NowPlayingActivity"></activity>
+        <activity
+            android:name=".SevenRulesActivity"
+            android:label="@string/seven_rules"/>
+        <activity
+            android:name=".PodcastsActivity"
+            android:label="@string/podcasts"/>
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="@string/now_playing"></activity>
     </application>
 
 </manifest>
