@@ -11,15 +11,12 @@ import java.util.ArrayList;
 
 public class PodcastsActivity extends AppCompatActivity {
 
-    ArrayList<Podcast> podcasts;
-    private LinearLayout podcastBtn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_podcasts);
 
-        podcasts = new ArrayList<>();
+        ArrayList<Podcast> podcasts = new ArrayList<>();
         podcasts.add(new Podcast(this , getResources().getString(R.string.podcast1_subject), new Duration(0, 20, 56)));
         podcasts.add(new Podcast(this , getResources().getString(R.string.podcast2_subject), new Duration(0, 45, 41)));
         podcasts.add(new Podcast(this , getResources().getString(R.string.podcast3_subject), new Duration(0, 27, 20)));
@@ -46,7 +43,7 @@ public class PodcastsActivity extends AppCompatActivity {
         ListView podcastsList = (ListView) findViewById(R.id.podcasts_list);
         podcastsList.setAdapter(adapter);
 
-        podcastBtn = (LinearLayout) findViewById(R.id.rule);
+        LinearLayout podcastBtn = (LinearLayout) findViewById(R.id.rule);
         podcastBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
