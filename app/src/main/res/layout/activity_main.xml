@@ -18,18 +18,18 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/main_seven_rules_btn"
             android:layout_width="200dp"
             android:layout_height="50dp"
             style="@style/main_layout_button"
-            android:text="@string/seven_rules"
-            android:onClick="listRules"/>
+            android:text="@string/seven_rules" />
 
         <Button
+            android:id="@+id/main_podcasts_btn"
             android:layout_width="200dp"
             android:layout_height="50dp"
             style="@style/main_layout_button"
-            android:text="@string/podcasts"
-            android:onClick="listPodcasts"/>
+            android:text="@string/podcasts" />
     </LinearLayout>
 
 

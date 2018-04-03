@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -13,6 +14,7 @@ import java.util.ArrayList;
 public class SevenRulesActivity extends AppCompatActivity {
 
     ArrayList<Rule> SevenRules;
+    private LinearLayout ruleBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,14 @@ public class SevenRulesActivity extends AppCompatActivity {
         setRuleTexts(4 , R.id.rule5_layout);
         setRuleTexts(5 , R.id.rule6_layout);
         setRuleTexts(6 , R.id.rule7_layout);
+
+        ruleBtn = (LinearLayout) findViewById(R.id.rule);
+        ruleBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playRule(v);
+            }
+        });
 
     }
 

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 public class PodcastsActivity extends AppCompatActivity {
 
     ArrayList<Podcast> podcasts;
+    private LinearLayout podcastBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +45,14 @@ public class PodcastsActivity extends AppCompatActivity {
 
         ListView podcastsList = (ListView) findViewById(R.id.podcasts_list);
         podcastsList.setAdapter(adapter);
+
+        podcastBtn = (LinearLayout) findViewById(R.id.rule);
+        podcastBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playPodcast(v);
+            }
+        });
 
     }
 

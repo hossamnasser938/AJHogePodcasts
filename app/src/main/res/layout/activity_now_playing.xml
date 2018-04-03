@@ -9,8 +9,30 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/seven_rules_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/five"
+            android:text="@string/seven_rules"/>
+
+        <Button
+            android:id="@+id/podcasts_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/five"
+            android:text="@string/podcasts"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp">
+        android:layout_margin="@dimen/five">
 
         <RelativeLayout
             android:layout_width="0dp"
@@ -56,7 +78,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp">
+        android:layout_margin="@dimen/five">
 
         <RelativeLayout
             android:layout_width="0dp"
@@ -90,14 +112,14 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/five"
         android:scaleType="centerCrop"
         android:src="@drawable/now_playing"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp">
+        android:layout_margin="@dimen/five">
 
         <RelativeLayout
             android:layout_width="0dp"
